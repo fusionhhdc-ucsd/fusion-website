@@ -9,10 +9,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <Title/>
-        <Community/>
-
-        <HandChooser card_left="Red_back" card_right="Red_back"/>
+        Hello
       </div>
     );
   }
