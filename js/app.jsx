@@ -9,8 +9,10 @@ class App extends React.Component {
 
     return (
       <div>
-        Hello
+        <h1>Fusion XIX</h1>
+        <SocialMedia href="http://www.facebook.com/fusionhhdc" company="facebook"/>
       </div>
+      
     );
   }
 }
