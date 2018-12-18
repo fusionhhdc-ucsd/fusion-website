@@ -5,16 +5,25 @@ class SocialMedia extends React.Component {
     super(props);
   }
 
-  static to_class(company){
-    return `fab fa-${company}-square fa-5x`;
+  to_class(){
+    if(this.props.square){
+      return `fab fa-${this.props.company}-square fa-5x`;
+    } else {
+      return `fab fa-${this.props.company} fa-5x`;
+    }
+    
   }
 
   render() {
 
     return (
       <a href={this.props.href}>
-        <i className={SocialMedia.to_class(this.props.company)}></i>
+        <i className={this.to_class() + " social_media"}></i>
       </a>
     );
   }
 }
+
+SocialMedia.defaultProps = {
+  square: true
+};
