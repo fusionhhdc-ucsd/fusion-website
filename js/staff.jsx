@@ -12,7 +12,7 @@ class Staff extends React.Component {
       <div>
         <NavBar/>
         <Banner/>
-        <ul className="committee-list">
+        <div className="card-columns">
           <Committee
             title="Communications"
             img=""
@@ -108,7 +108,7 @@ class Staff extends React.Component {
             point-of-contact day-of Fusion. We are also responsible for ensuring
             that all teams have a positive and amicable experience at FUSION."
           />
-        </ul>
+        </div>
         <Footer/>
       </div>
     );
