@@ -12,6 +12,7 @@ class App extends React.Component {
         <NavBar/>
         <Banner/>
         <ButtonTicket/>
+        <LocationMap/>
         <Footer/>
       </div>
       
