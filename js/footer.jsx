@@ -8,8 +8,8 @@ class Footer extends React.Component {
   render() {
 
     return (
-      <footer class="py-5">
-        <div class="text-center center-block">
+      <footer className="py-5">
+        <div className="text-center center-block">
           <SocialMediaBar/>
         </div>
       </footer>
