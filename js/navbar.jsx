@@ -20,7 +20,7 @@ class NavBar extends React.Component {
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
-              <li className="active"><a href="/index.html">Home</a></li>
+              <li><a href="/index.html">Home</a></li>
               <li><a href="/about.html">About</a></li>
               <li><a href="/staff.html">Our Staff</a></li>
             </ul>
