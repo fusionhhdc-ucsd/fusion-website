@@ -12,6 +12,13 @@ class Footer extends React.Component {
         <div className="text-center center-block">
           <SocialMediaBar/>
         </div>
+        <div className="text-center">
+          {"Contact us by emailing "}
+          <a
+            href="mailto:fusionhhdc.marketing@gmail.com"
+            target="_top">fusionhhdc.marketing@gmail.com
+          </a>
+        </div>
       </footer>
     );
   }
