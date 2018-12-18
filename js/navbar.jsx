@@ -11,14 +11,14 @@ class NavBar extends React.Component {
       <nav className="navbar navbar-inverse">
         <div className="container-fluid">
           <div className="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>                        
             </button>
             <a className="navbar-brand" href="/index.html">Fusion</a>
           </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
+          <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav">
               <li><a href="/index.html">Home</a></li>
               <li><a href="/about.html">About</a></li>
