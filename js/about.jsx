@@ -13,6 +13,7 @@ class About extends React.Component {
         <Banner/>
         <MissionStatement/>
         <AboutStatement/>
+        <HistoryTimeline/>
         <Footer/>
       </div>
       
