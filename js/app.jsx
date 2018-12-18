@@ -11,6 +11,7 @@ class App extends React.Component {
       <div>
         <NavBar/>
         <Banner/>
+        <ButtonTicket/>
         <Footer/>
       </div>
       
