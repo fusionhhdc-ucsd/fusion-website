@@ -12,7 +12,7 @@ class ButtonTicket extends React.Component {
           <a href="#">
             <button
               type="button"
-              class="btn-lg btn-primary btn-ticket">
+              className="btn-lg btn-primary btn-ticket">
               Buy Tickets
             </button>
           </a>
