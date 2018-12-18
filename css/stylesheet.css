@@ -31,3 +31,12 @@
 .btn-ticket {
   margin: .5em;
 }
+
+.committee-list {
+  list-style-type: none;
+}
+
+.carousel img {
+  width:100%;
+  height:auto;
+  }

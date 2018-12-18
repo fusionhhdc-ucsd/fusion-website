@@ -8,28 +8,29 @@ class NavBar extends React.Component {
   render() {
 
     return (
-      <nav className="navbar navbar-inverse">
-        <div className="container-fluid">
-          <div className="navbar-header">
-            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>                        
-            </button>
-            <a className="navbar-brand" href="/index.html">Fusion</a>
-          </div>
-          <div className="collapse navbar-collapse" id="myNavbar">
-            <ul className="nav navbar-nav">
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/about.html">About</a></li>
-              <li><a href="/staff.html">Our Staff</a></li>
-            </ul>
-            <a href="https://tinyurl.com/applyfusionxix" target="_blank">
-              <button className="btn btn-primary navbar-btn">Apply</button>
-            </a>
-          </div>
-          
-        </div>
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+        <a className="navbar-brand" href="#">Fusion</a>
+
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="/index.html">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/about.html">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/staff.html">Our Staff</a>
+            </li> 
+          </ul>
+          <a href="https://tinyurl.com/applyfusionxix" target="_blank">
+            <button className="btn btn-primary navbar-btn">Apply</button>
+          </a>
+        </div> 
       </nav>
     );
   }
