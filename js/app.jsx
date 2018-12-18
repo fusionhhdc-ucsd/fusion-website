@@ -9,6 +9,7 @@ class App extends React.Component {
 
     return (
       <div>
+        <NavBar/>
         <Banner/>
         <SocialMediaBar/>
       </div>

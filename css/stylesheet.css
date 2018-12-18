@@ -1,7 +1,3 @@
-.social_media_bar {
-
-}
-
 .social_media {
    margin: .1em;
 }
@@ -26,4 +22,8 @@
 
 .fa-youtube-square {
   color: #bb0000;
+}
+
+.navbar {
+  margin-bottom: 0em;
 }
