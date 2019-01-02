@@ -9,7 +9,7 @@ class Banner extends React.Component {
 
     return (
 
-      <div id="demo" className="carousel slide" data-ride="carousel">
+      <div id="demo" className="carousel slide" data-ride="carousel" style={{"margin-bottom":"2em"}}>
 
         <ul className="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" className="active"></li>
