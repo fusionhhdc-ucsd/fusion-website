@@ -31,6 +31,11 @@ class NavBar extends React.Component {
                 Contact
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/fusion_xix.html">
+                FUSION XIX
+              </a>
+            </li>
           </ul>
         </div> 
       </nav>
