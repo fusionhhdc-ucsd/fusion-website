@@ -9,7 +9,6 @@ class SocialMediaBar extends React.Component {
 
     return (
       <div className="social_media_bar">
-        <ul>
           <SocialMedia
             href="http://www.facebook.com/fusionhhdc"
             company="facebook"
@@ -27,7 +26,6 @@ class SocialMediaBar extends React.Component {
             href="http://www.youtube.com/channel/UCCbFcX7YCu-4NWZNuPEFggw"
             company="youtube"
           />
-        </ul>
       </div>
     );
   }
