@@ -9,7 +9,7 @@ class SocialMediaBar extends React.Component {
 
     return (
       <div className="social_media_bar">
-        <div className="container">
+        <div className="container w-50">
           <div className="row">
             <div className="col">
               <SocialMedia
