@@ -27,9 +27,6 @@ class NavBar extends React.Component {
               <a className="nav-link" href="/staff.html">Our Staff</a>
             </li> 
           </ul>
-          <a href="https://tinyurl.com/applyfusionxix" target="_blank">
-            <button className="btn btn-primary navbar-btn">Apply</button>
-          </a>
         </div> 
       </nav>
     );
