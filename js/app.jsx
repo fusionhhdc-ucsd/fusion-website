@@ -11,8 +11,16 @@ class App extends React.Component {
       <div>
         <NavBar/>
         <Banner/>
+        <h1
+          className='text-center'
+          style={{
+            marginBottom: '1em'
+          }}
+        >
+          Welcome to the FUSION Hip-Hop Dance Competition website!
+        </h1>
+        <EventsUpcoming/>
         <ButtonTicket/>
-        <LocationMap/>
         <Footer/>
       </div>
       
