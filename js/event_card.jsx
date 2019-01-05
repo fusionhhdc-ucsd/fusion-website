@@ -15,25 +15,30 @@ class EventCard extends React.Component {
       >
         <div className="card-body text-dark">
           <div className="card-text">
-            <span
-              style={{
-                'color': '#2670f9'
-              }}
-            >
-              {this.props.day}&nbsp;
-              <span className="font-weight-bold">
-                {this.props.date}
-              </span>
-            </span>
-            
+            <div className="container">
+              <div className="row">
+                <div
+                  className='col-sm text-left px-0'
+                  style={{
+                    'color': '#2670f9'
+                  }}
+                >
+                  {this.props.day}&nbsp;
+                  <span className="font-weight-bold">
+                    {this.props.date}
+                  </span>
+                </div>
+                
 
-            <div
-              className="text-right float-right"
-              style={{
-                'color': '#ababab'
-              }}
-            >
-              {this.props.location}
+                <div
+                  className="col-sm text-sm-right px-0"
+                  style={{
+                    'color': '#ababab'
+                  }}
+                >
+                  {this.props.location}
+                </div>
+              </div>
             </div>
           </div>
           <h4 className="card-title">{this.props.title}</h4>
