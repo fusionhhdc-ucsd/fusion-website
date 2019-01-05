@@ -38,6 +38,7 @@ class FusionXIX extends React.Component {
               Location: Golden Hall
             </li>
           </ul>
+          <LocationMap/>
         </div>
         <Footer/>
       </div>
