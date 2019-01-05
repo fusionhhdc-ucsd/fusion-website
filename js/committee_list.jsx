@@ -8,7 +8,7 @@ class CommitteeList extends React.Component {
   render() {
 
     return (
-      <div className="card-columns">
+      <div className="card-columns mx-3">
         <Committee
           title="Communications"
           description="Communications is part of the internal operations of
