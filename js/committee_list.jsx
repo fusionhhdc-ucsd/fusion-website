@@ -35,7 +35,12 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Graphics"
-          description=""
+          description="Graphics is responsible for creating the visuals that
+            best represent FUSION and our theme. We work with the Marketing and
+            Sponsorship committees to make graphics for flyers, posters,
+            t-shirts, social media banners, and more. As the Graphics
+            committee, we have the freedom to think creatively and work
+            collaboratively to produce our best designs."
         />
         <Committee
           title="Marketing"
@@ -49,7 +54,10 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Media"
-          description=""
+          description="The media committee advertises and captures the Fusion
+            experience through photograpy and videography. This involves the
+            production of videos promoting the event, taking photos the day of,
+            and more!"
         />
         <Committee
           title="Outreach"
