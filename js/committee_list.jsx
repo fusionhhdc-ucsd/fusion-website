@@ -25,9 +25,9 @@ class CommitteeList extends React.Component {
         <Committee
           title="Decorations"
           image="decorations"
-          description="The Fusion Decorations Committee is one of the more
+          description="The FUSION Decorations Committee is one of the more
             artistic committees that helps put the show together. Deco members
-            work together on the stage banner for Fusion KickOff, the Fusion
+            work together on the stage banner for FUSION KickOff, the FUSION
             backdrop, and other decorations for the venue, including a new
             instagrammable prop wall for visitors and dancers to take pictures
             at. Despite being a space to build on each other’s artistic ideas,
@@ -59,7 +59,7 @@ class CommitteeList extends React.Component {
         <Committee
           title="Media"
           image="media"
-          description="The media committee advertises and captures the Fusion
+          description="The media committee advertises and captures the FUSION
             experience through photograpy and videography. This involves the
             production of videos promoting the event, taking photos the day of,
             and more!"
@@ -81,7 +81,7 @@ class CommitteeList extends React.Component {
           image="productions"
           description="Productions Committee is the backstage manager for
             FUSION day of. In preparation for competition day, our committee
-            handles all event logistics, detailing an itinerary for both Fusion
+            handles all event logistics, detailing an itinerary for both FUSION
             Staff and the dance teams. Productions is also in charge of
             planning FUSION Kickoff, an on-campus event showcasing the UCSD
             Dance Community."
@@ -109,7 +109,7 @@ class CommitteeList extends React.Component {
           image="welcoming"
           description="Welcoming is the committee that is in charge of
           providing all important information to the teams and is their
-          point-of-contact day-of Fusion. We are also responsible for ensuring
+          point-of-contact day-of FUSION. We are also responsible for ensuring
           that all teams have a positive and amicable experience at FUSION."
         />
       </div>
