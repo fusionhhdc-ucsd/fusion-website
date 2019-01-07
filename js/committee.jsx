@@ -5,8 +5,8 @@ class Committee extends React.Component {
     super(props);
   }
 
-  static to_url(staff_team){
-    return `/images/staff/fusion-xviii-staff-${staff_team}.jpg`;
+  static to_url(staff_team, size){
+    return `/images/staff/fusion-xviii-staff-${size}-${staff_team}.jpg`;
   }
 
   render() {
@@ -15,7 +15,11 @@ class Committee extends React.Component {
       <div>
         <div className="card">
           <h4 className="card-title text-center">{this.props.title}</h4>
-          <img className="card-img-top" src={Committee.to_url(this.props.image)} alt="Card image"/>
+          <img
+            className="card-img-top"
+            src={Committee.to_url(this.props.image, this.props.size)}
+            alt="Card image"
+          />
           <div className="card-body">
             
             <p className="card-text">{this.props.description}</p>
@@ -28,5 +32,6 @@ class Committee extends React.Component {
 }
 
 Committee.defaultProps = {
-  image: 'welcoming'
+  image: 'welcoming',
+  size: 'sm'
 };
