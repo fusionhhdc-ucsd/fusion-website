@@ -11,6 +11,7 @@ class CommitteeList extends React.Component {
       <div className="card-columns mx-3">
         <Committee
           title="Communications"
+          image="communications"
           description="Communications is part of the internal operations of
             FUSION Hip Hop Dance Competition Staff, working very closely with
             productions to ensure a successful FUSION. We are in charge of
@@ -23,6 +24,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Decorations"
+          image="decorations"
           description="The Fusion Decorations Committee is one of the more
             artistic committees that helps put the show together. Deco members
             work together on the stage banner for Fusion KickOff, the Fusion
@@ -35,6 +37,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Graphics"
+          image="graphics"
           description="Graphics is responsible for creating the visuals that
             best represent FUSION and our theme. We work with the Marketing and
             Sponsorship committees to make graphics for flyers, posters,
@@ -44,6 +47,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Marketing"
+          image="marketing"
           description="Marketing establishes and enforces the image of FUSION
             as an organization with the purpose of promoting our events, most
             notably Kickoff and FUSION Dance Competition. We do advertising on
@@ -54,6 +58,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Media"
+          image="media"
           description="The media committee advertises and captures the Fusion
             experience through photograpy and videography. This involves the
             production of videos promoting the event, taking photos the day of,
@@ -61,6 +66,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Outreach"
+          image="outreach"
           description="The goal of the Outreach committee is to help FUSION
             give back to the community from both within and out of UCSD. We
             plan events and other activities that help FUSION, as a non-profit
@@ -72,6 +78,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Productions"
+          image="productions"
           description="Productions Committee is the backstage manager for
             FUSION day of. In preparation for competition day, our committee
             handles all event logistics, detailing an itinerary for both Fusion
@@ -81,6 +88,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Sponsorship"
+          image="sponsorship"
           description="Sponsorship’s focus is to obtain sponsors to help
             support FUSION, with the form of support varying from actual
             sponsorships, gift or monetary donations, or fundraisers. Thus, the
@@ -98,6 +106,7 @@ class CommitteeList extends React.Component {
         />
         <Committee
           title="Welcoming"
+          image="welcoming"
           description="Welcoming is the committee that is in charge of
           providing all important information to the teams and is their
           point-of-contact day-of Fusion. We are also responsible for ensuring
