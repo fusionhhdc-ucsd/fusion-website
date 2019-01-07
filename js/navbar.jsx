@@ -9,7 +9,7 @@ class NavBar extends React.Component {
 
     return (
       <nav className="navbar navbar-expand-md bg-dark navbar-dark">
-        <a className="navbar-brand" href="/index.html">Fusion</a>
+        <a className="navbar-brand" href="/index.html">FUSION</a>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
