@@ -17,7 +17,8 @@ class NavBar extends React.Component {
         </a>
         <button
           className="navbar-toggler"
-          type="button" data-toggle="collapse"
+          type="button"
+          data-toggle="collapse"
           data-target="#collapsibleNavbar"
         >
           <span className="navbar-toggler-icon"></span>
@@ -27,46 +28,33 @@ class NavBar extends React.Component {
           id="collapsibleNavbar"
         >
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="/index.html"
-              >
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="/about.html"
-              >
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="/staff.html"
-              >
-                Our Staff
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="/contact.html"
-              >
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href="/fusion_xix.html"
-              >
-                FUSION XIX
-              </a>
-            </li>
+            <NavItem
+              title="Home"
+              url="/index.html"
+            />
+            <NavItem
+              title="About"
+              url="/about.html"
+            />
+            <NavItemDropdown
+              title="Events"
+              dropdownTitle0="FUSION XIX Kickoff"
+              url0="/kickoff.html"
+              dropdownTitle1="FUSION XIX"
+              url1="/competition.html"
+            />
+            <NavItem
+              title="Apply"
+              url="/apply.html"
+            />
+            <NavItem
+              title="Our Staff"
+              url="/staff.html"
+            />
+            <NavItem
+              title="Contact"
+              url="/contact.html"
+            />
           </ul>
         </div> 
       </nav>
