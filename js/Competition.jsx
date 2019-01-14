@@ -1,6 +1,6 @@
 'use strict';
 
-class FusionXIX extends React.Component {
+class Competition extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -48,5 +48,5 @@ class FusionXIX extends React.Component {
 }
 
 // Render the App.
-const dom_container = document.querySelector('#fusion-xix-container');
-ReactDOM.render(<FusionXIX/>, dom_container);
+const dom_container = document.querySelector('#competition-container');
+ReactDOM.render(<Competition />, dom_container);
