@@ -6,7 +6,7 @@ class Apply extends React.Component {
   }
 
   render() {
-
+  // &nbsp; means a single non-breaking space.
     return (
       <div>
         <NavBar/>
