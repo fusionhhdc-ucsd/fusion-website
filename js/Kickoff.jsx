@@ -12,9 +12,9 @@ class Kickoff extends React.Component {
         <NavBar/>
         <Banner/>
         <div className="container w-75" >
-          <h1>
+          <h2>
             FUSION XIX Kickoff
-          </h1>
+          </h2>
           <p>
             An annual dance showcase for UC San Diego students and dance teams.
           </p>
@@ -37,9 +37,9 @@ class Kickoff extends React.Component {
               </a>
             </li>
           </ul>
-          <h1>
+          <h2>
             Line Up
-          </h1>
+          </h2>
           <p>
             To be announced...
           </p>
