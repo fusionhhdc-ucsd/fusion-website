@@ -12,8 +12,8 @@ class HistoryTimeline extends React.Component {
         <h2>History</h2>
         <div>
           <p>
-            In 2018, FUSION XVIII will mark FUSION’s eighteenth iteration with
-            an established history. As an organization, FUSION began in 1999
+            In 2019, FUSION XIX will mark FUSION’s nineteenth iteration with an
+            established history. As an organization, FUSION began in 1999
             alongside of MASA and kunFUSION. By 2000, MASA and 220, its
             competitive dance team, held FUSION I at PC West Ballroom, where
             security guards were forced to stop letting people in due to
@@ -21,8 +21,8 @@ class HistoryTimeline extends React.Component {
             RIMAC Arena. During its peak years around 2008, coinciding with the
             peak years of America’s Best Dance Crew and public interest in the
             hip hop dance community as a whole, FUSION attracted 3000 audience
-            members and performers, one of the largest attendance number at any
-            hip hop dance event anywhere.
+            members and performers, one of the largest attendance numbers at
+            any hip hop dance event anywhere.
           </p>
           <p>
             Unfortunately, in 2012, FUSION XIII was canceled to the heartbreak
@@ -33,7 +33,7 @@ class HistoryTimeline extends React.Component {
             FUSION XIII was brought back by MASA alone to the delight of the
             dance community, while 220 has become respected as a rising force
             with multiple first and second place finishes at other hip hop
-            dance competitions. 
+            dance competitions.
           </p>
           <p>
             As an organization, FUSION began in 1999 alongside of MASA and
@@ -44,8 +44,8 @@ class HistoryTimeline extends React.Component {
               UCSD. During its peak years around 2008, coinciding with the
             peak years of America’s Best Dance Crew and public interest in the
             hip hop dance community as a whole, FUSION attracted 3000 audience
-            members and performers, one of the largest attendance number at any
-            hip hop dance event anywhere. As the competition became more
+            members and performers, one of the largest attendance numbers at
+            any hip hop dance event anywhere. As the competition became more
             noticed, FUSION expanded and held events in downtown San Diego. For
             the last three years, FUSION has been held in Golden Hall, where we
             have developed a strong relationship with the organization and
