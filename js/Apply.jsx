@@ -11,16 +11,19 @@ class Apply extends React.Component {
       <div>
         <NavBar/>
         <Banner/>
-        <h1 className="text-center">
-          Applications are now closed for FUSION XIX Hip Hop Dance Competition.
-          Please come back in December 2019 for FUSION XX applications! We also
-          post our applications on our Facebook &nbsp;
-            <a
-              href="http://www.facebook.com/fusionhhdc"
-            >
-            page
-            </a>.
-        </h1>
+        <div className="container w-75">
+          <h1>Staff Applications (Closed)</h1>
+          <p>
+            Applications are now closed for FUSION XIX Hip Hop Dance Competition.
+            Please come back in December 2019 for FUSION XX applications! We also
+            post our applications on our Facebook &nbsp;
+              <a
+                href="http://www.facebook.com/fusionhhdc"
+              >
+              page
+              </a>.
+          </p>
+        </div>
         <Footer/>
       </div>
       
