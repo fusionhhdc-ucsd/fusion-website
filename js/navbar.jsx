@@ -18,7 +18,8 @@ class NavBar extends React.Component {
         <button
           className="navbar-toggler"
           type="button" data-toggle="collapse"
-          data-target="#collapsibleNavbar">
+          data-target="#collapsibleNavbar"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
