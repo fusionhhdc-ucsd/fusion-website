@@ -11,9 +11,11 @@ class About extends React.Component {
       <div>
         <NavBar/>
         <Banner/>
-        <MissionStatement/>
-        <AboutStatement/>
-        <HistoryTimeline/>
+        <div className="container w-75" >
+          <MissionStatement/>
+          <AboutStatement/>
+          <HistoryTimeline/>
+        </div>
         <Footer/>
       </div>
       

@@ -11,7 +11,7 @@ class Contact extends React.Component {
       <div>
         <NavBar/>
         <Banner/>
-        <div>
+        <div className="container w-75">
           <h2>
             Contact Info
           </h2>
