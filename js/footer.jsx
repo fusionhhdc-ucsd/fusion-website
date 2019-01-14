@@ -16,7 +16,9 @@ class Footer extends React.Component {
           {"Contact us by emailing "}
           <a
             href="mailto:fusionhhdc.marketing@gmail.com"
-            target="_top">fusionhhdc.marketing@gmail.com
+            target="_top"
+          >
+            fusionhhdc.comm@gmail.com
           </a>
         </div>
       </footer>

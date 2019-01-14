@@ -29,7 +29,7 @@ class Contact extends React.Component {
               </tr>
               <tr>
                 <td>Email:</td>
-                <td>fusionhhdc.marketing@gmail.com</td>
+                <td>fusionhhdc.comm@gmail.com</td>
               </tr>
             </tbody>
           </table>
