@@ -1,6 +1,6 @@
 'use strict';
 
-class Events extends React.Component {
+class Kickoff extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -19,5 +19,5 @@ class Events extends React.Component {
 }
 
 // Render the App.
-const dom_container = document.querySelector('#events-container');
-ReactDOM.render(<Events/>, dom_container);
+const dom_container = document.querySelector('#kickoff-container');
+ReactDOM.render(<Kickoff/>, dom_container);
