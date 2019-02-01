@@ -23,7 +23,6 @@ class Committee extends React.Component {
           <div className="card-body">
             
             <p className="card-text">{this.props.description}</p>
-            <a href="#" className="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
