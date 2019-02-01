@@ -19,8 +19,8 @@ class Competition extends React.Component {
         <div className="container w-75" >
           <EventInfo
             title="FUSION XIX"
-            location="Golden Hall"
-            locationUrl="https://www.google.com/maps/place/Golden+Hall/@32.717645,-117.163323,16z/data=!4m5!3m4!1s0x0:0x64836d4d79a1c138!8m2!3d32.7176451!4d-117.163323?hl=en-US"
+            location="TBA"
+            locationUrl="https://www.google.com/maps?q=san+diego&um=1&ie=UTF-8&sa=X&ved=0ahUKEwie6t6p25vgAhWlMX0KHexTDSUQ_AUIDigB"
             infoTexts={infoTexts}
             description="One of the largest dance competitions on the West
               Coast."
