@@ -44,10 +44,6 @@ class NavBar extends React.Component {
               url1="/competition.html"
             />
             <NavItem
-              title="Apply"
-              url="/apply.html"
-            />
-            <NavItem
               title="Our Staff"
               url="/staff.html"
             />
