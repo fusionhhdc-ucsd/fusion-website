@@ -8,7 +8,7 @@ class Kickoff extends React.Component {
   render() {
     const infoTexts = [
       "Date: Sunday, March 3rd",
-      "Time: 7:00 PM (Need official time.)"
+      "Time: 7:00 PM"
     ];
 
     return (
