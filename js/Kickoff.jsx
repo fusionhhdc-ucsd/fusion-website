@@ -30,6 +30,8 @@ class Kickoff extends React.Component {
           />
           <LineUpGraphic
             image="/images/kickoff/lineup-kickoff.png"
+            graphicAltText="Kickoff Lineup"
+            graphicDesigner="Desiree Intveld"
           />
         </div>
         <Footer/>
