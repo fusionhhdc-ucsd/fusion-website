@@ -25,6 +25,9 @@ class Kickoff extends React.Component {
             description="An annual dance showcase for UC San Diego students and
               dance teams."
           />
+          <PromoVideo
+            videoUrl="https://www.youtube.com/embed/e3o3L65eubY"
+          />
           <LineUpGraphic
             image="/images/kickoff/lineup-kickoff.png"
           />
