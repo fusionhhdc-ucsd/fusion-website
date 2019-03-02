@@ -12,10 +12,18 @@ class LineUpGraphic extends React.Component {
         <h2>
           Line Up
         </h2>
-        <img
-          className="img-fluid"
-          src={this.props.image}
-        />
+        <figure className="figure">
+          <img
+            src={this.props.image}
+            className="figure-img img-fluid rounded"
+            alt={this.props.graphicAltText}
+          />
+          <figcaption
+            className="figure-caption"
+          >
+            Designed by {this.props.graphicDesigner}
+          </figcaption>
+        </figure>
       </div>
       
     );
