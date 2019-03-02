@@ -13,7 +13,7 @@ class LineUpGraphic extends React.Component {
           Line Up
         </h2>
         <img
-          class="img-fluid"
+          className="img-fluid"
           src={this.props.image}
         />
       </div>
