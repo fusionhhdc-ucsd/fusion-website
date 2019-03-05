@@ -9,7 +9,8 @@ class Competition extends React.Component {
     const infoTexts = [
       "FUSION Dance Competition (FUSION XIX)",
       "Date: April 20th, 2019",
-      "Time: 5:00 PM - 10:00 PM"
+      "Time: 5:00 PM - 10:00 PM",
+      "Doors open at 5:00 PM. Show starts at 6:00 PM"
     ];
 
     return (
