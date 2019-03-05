@@ -25,6 +25,7 @@ class EventsUpcoming extends React.Component {
             day="Sat"
             date="04/20"
             location="San Diego, CA, US"
+            eventUrl="competition.html"
             description="Come see amazing dance performances!"
           />
         </div>
