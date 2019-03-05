@@ -27,6 +27,7 @@ class Competition extends React.Component {
             description="One of the largest dance competitions on the West
               Coast."
           />
+          <ButtonTicket />
           <WinnersList />
           <LineUp />
         </div>
