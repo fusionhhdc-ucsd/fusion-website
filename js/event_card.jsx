@@ -10,7 +10,7 @@ class EventCard extends React.Component {
     return (
       <div className="card border-dark mb-3 mx-auto"
         style={{
-          'max-width': '18rem'
+          'maxWidth': '18rem'
         }}
       >
         <div className="card-body text-dark">
