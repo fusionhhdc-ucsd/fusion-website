@@ -7,9 +7,9 @@ class SocialMedia extends React.Component {
 
   to_class(){
     if(this.props.square){
-      return `fab fa-${this.props.company}-square fa-5x`;
+      return `fab fa-${this.props.company}-square fa-${this.props.size}x`;
     } else {
-      return `fab fa-${this.props.company} fa-5x`;
+      return `fab fa-${this.props.company} fa-${this.props.size}x`;
     }
     
   }
@@ -25,5 +25,6 @@ class SocialMedia extends React.Component {
 }
 
 SocialMedia.defaultProps = {
-  square: true
+  square: true,
+  size: 5
 };
