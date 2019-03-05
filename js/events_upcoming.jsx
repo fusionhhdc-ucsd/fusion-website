@@ -21,13 +21,6 @@ class EventsUpcoming extends React.Component {
         </h2>
         <div className="d-inline">
           <EventCard
-            title="FUSION XIX Kickoff"
-            day="Sat"
-            date="03/03"
-            location="La Jolla, CA, US"
-            description="Come support the exciting dancers that UCSD has to offer!"
-          />
-          <EventCard
             title="FUSION XIX"
             day="Sat"
             date="04/20"
