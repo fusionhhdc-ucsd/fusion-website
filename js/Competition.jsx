@@ -18,10 +18,11 @@ class Competition extends React.Component {
         <NavBar/>
         <Banner/>
         <div className="container w-75" >
-          <EventInfo
+          <EventInfoFacebookEventLink
             title="FUSION XIX"
             location="Golden Hall"
             locationUrl="https://goo.gl/maps/EFxJNaadGu82"
+            facebookEventUrl="https://www.facebook.com/events/2314411585459623"
             infoTexts={infoTexts}
             description="One of the largest dance competitions on the West
               Coast."
