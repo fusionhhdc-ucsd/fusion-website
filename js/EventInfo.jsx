@@ -26,6 +26,7 @@ class EventInfo extends React.Component {
             Location:&nbsp;
             <a
               href={this.props.locationUrl}
+              target="_blank"
             >
               {this.props.location}
             </a>
