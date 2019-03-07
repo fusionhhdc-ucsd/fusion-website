@@ -1,6 +1,6 @@
 'use strict';
 
-class App extends React.Component {
+class Index extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -29,5 +29,5 @@ class App extends React.Component {
 }
 
 // Render the App.
-const dom_container = document.querySelector('#app-container');
-ReactDOM.render(<App/>, dom_container);
+const dom_container = document.querySelector('#index-container');
+ReactDOM.render(<Index/>, dom_container);
