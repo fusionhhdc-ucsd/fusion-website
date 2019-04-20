@@ -28,8 +28,12 @@ class Competition extends React.Component {
               Coast."
           />
           <ButtonTicket />
+          <LineUpGraphic
+            image="/images/competition/lineup-competition.png"
+            graphicAltText="Competition Lineup"
+            graphicDesigner="Desiree Intveld"
+          />
           <WinnersList />
-          <LineUp />
         </div>
         <Footer/>
       </div>
