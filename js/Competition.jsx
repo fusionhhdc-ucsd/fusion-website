@@ -33,6 +33,10 @@ class Competition extends React.Component {
             graphicAltText="Competition Lineup"
             graphicDesigner="Desiree Intveld"
           />
+          <MasterOfCeremonies
+            image="/images/master-of-ceremonies/master-of-ceremonies-mikey-dellavella.png"
+            graphicAltText="Master of Ceremonies"
+          />
           <WinnersList />
         </div>
         <Footer/>
