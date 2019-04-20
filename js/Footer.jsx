@@ -10,6 +10,7 @@ class Footer extends React.Component {
     return (
       <footer className="py-5">
         <div className="text-center center-block">
+          <Sponsors />
           <SocialMediaBar/>
         </div>
         <div className="text-center">
